@@ -1,0 +1,4 @@
+﻿ALTER TABLE Employees
+ADD CONSTRAINT FK_Employees_JobTitles
+FOREIGN KEY (TitleID)
+REFERENCES JobTitles(TitleID)
